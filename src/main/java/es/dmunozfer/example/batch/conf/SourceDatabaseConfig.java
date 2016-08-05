@@ -39,8 +39,7 @@ public class SourceDatabaseConfig {
 		jpaVendorAdapter.setGenerateDdl(GENERATE_DDL);
 
 		LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
-		DataSource ds = dataSource();
-		factoryBean.setDataSource(ds);
+		factoryBean.setDataSource(dataSource());
 		factoryBean.setJpaVendorAdapter(jpaVendorAdapter);
 		factoryBean.setPackagesToScan(es.dmunozfer.example.batch.data.source.PackageMarker.class.getPackage().getName());
 
