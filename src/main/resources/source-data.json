@@ -1,0 +1,17 @@
+[
+	{
+		"_class": "es.dmunozfer.example.batch.data.source.SourceEntity",
+		"id": 1,
+		"name": "name1"
+	},
+	{
+		"_class": "es.dmunozfer.example.batch.data.source.SourceEntity",
+		"id": 2,
+		"name": "name2"
+	},
+	{
+		"_class": "es.dmunozfer.example.batch.data.source.SourceEntity",
+		"id": 3,
+		"name": "name3"
+	}
+]
